@@ -3,7 +3,7 @@ import requests
 import uuid
 
 # Configuration
-WEBHOOK_URL = "https://hammadulhassan90.app.n8n.cloud/webhook/4b54feca-c7ae-4b2b-83eb-7315280b2b01"
+WEBHOOK_URL = "https://hammadulhassan90.app.n8n.cloud/webhook/2cd77ac5-a9a5-49c6-8481-27de32ea34c1"
 
 # Page setup
 st.set_page_config(
@@ -81,3 +81,4 @@ if prompt:
                 error_msg = f"Sorry, there was an error communicating with the agent. Please try again later. ({e})"
                 st.error(error_msg)
                 st.session_state.messages.append({"role": "assistant", "content": error_msg})
+
